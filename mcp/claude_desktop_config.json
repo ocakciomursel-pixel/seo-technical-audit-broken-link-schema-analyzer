@@ -1,12 +1,12 @@
 {
   "mcpServers": {
-    "lucacelli-seo-technical-audit-broken-link-schema-analyzer": {
+    "lucacelli-b2b-cloud-suite": {
       "command": "npx",
       "args": [
         "-y",
         "@apify/actors-mcp-server",
         "--actors",
-        "lucacelli/seo-technical-audit-broken-link-schema-analyzer"
+        "lucacelli/seo-technical-audit-broken-link-schema-analyzer,lucacelli/google-maps-scraper-places-emails-contacts-reviews,lucacelli/b2b-domain-contact-tech-enricher,lucacelli/shopify-store-product-contact-spy,lucacelli/ai-ready-website-to-markdown-rag-crawler"
       ],
       "env": {
         "APIFY_TOKEN": "YOUR_APIFY_TOKEN_HERE"
