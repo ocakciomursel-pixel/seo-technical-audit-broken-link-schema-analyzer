@@ -1,0 +1,27 @@
+{
+  "name": "@lucacelli/seo-technical-audit-broken-link-schema-analyzer",
+  "version": "2.1.0",
+  "description": "Run a 45-point technical SEO audit across any URL list: HTTP TTFB latency, Title/Meta lengths, Canonical & robots/llms.txt checks, HSTS/CSP security headers, Schema.org JSON-LD validation, and live broken link detection.",
+  "type": "module",
+  "main": "index.js",
+  "homepage": "https://apify.com/lucacelli/seo-technical-audit-broken-link-schema-analyzer",
+  "keywords": [
+    "google-maps-scraper",
+    "google-maps-api",
+    "lead-generation",
+    "b2b-leads",
+    "email-extractor",
+    "apify-actor",
+    "local-seo",
+    "google-places-api",
+    "contact-scraper",
+    "phone-number-scraper",
+    "business-directory",
+    "n8n-workflow",
+    "mcp-server",
+    "web-scraping",
+    "sales-automation"
+  ],
+  "author": "Lucacelli Cloud Data Engineering",
+  "license": "MIT"
+}
