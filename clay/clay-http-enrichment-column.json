@@ -1,0 +1,20 @@
+{
+  "platform": "Clay.com HTTP API Enrichment Column",
+  "actorTitle": "Technical SEO, Broken Link, Schema.org & Security Auditor",
+  "actorStoreUrl": "https://apify.com/lucacelli/seo-technical-audit-broken-link-schema-analyzer",
+  "costComparison": "$0.0008 per page ($0.80/1k) vs. $0.10–$0.50 per row in native Clay credits (98% savings)",
+  "httpApiConfiguration": {
+    "method": "POST",
+    "endpoint": "https://api.apify.com/v2/acts/lucacelli~seo-technical-audit-broken-link-schema-analyzer/run-sync-get-dataset-items?token=YOUR_APIFY_TOKEN",
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyTemplate": {
+      "urls": [
+        "https://apify.com",
+        "https://cloudflare.com"
+      ],
+      "checkBrokenLinks": true
+    }
+  }
+}
